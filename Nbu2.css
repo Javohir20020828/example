@@ -1,0 +1,818 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e6eaf1;
+}
+body{
+    background-color: #eef1f1;
+
+
+    }
+    nav{
+    width: 104.8vw;
+    }
+    .navbar-nav>.nav-link {
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    top: -4vw;
+    left: 2vw;
+    color: rgb(179, 173, 173) !important;
+    border-bottom: solid 2px rgb(194, 190, 190);
+    outline: none;
+    cursor: pointer;
+
+
+    }
+
+    .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.4px;
+    left: 0;
+    bottom: 0;
+    background: rgb(11, 185, 162);
+    transform: scale(0, 4);
+    transition: transform 0.7s ease;
+
+    }
+
+    .nav-link:hover::after {
+    transform: scale(1, 1);
+    }
+
+    .navbar-brand>img {
+    position: relative;
+
+    left: 1vw;
+    top: -2vw;
+    animation-duration: 10s;
+    animation-name: image;
+    animation-iteration-count: infinite;
+
+
+
+
+    }
+
+    @keyframes image {
+    0% {
+    opacity: 0;
+    top: -10vw;
+    }
+
+    50% {
+    opacity: 1;
+    top: -2vw;
+    }
+
+    100% {
+    opacity: 0;
+
+    top: -10vw;
+
+
+    }
+    }
+
+    .nav-link:hover {
+    color: rgb(11, 185, 162) !important;
+    border-bottom: solid 1px;
+
+    }
+
+    .dropdown-toggle {
+    position: relative;
+    top: -4vw;
+    left: 2vw;
+    border-bottom: solid 2px rgb(151, 145, 145);
+    }
+
+    .dropdown-menu {
+    position: relative;
+    top: 1vw !important;
+    width: 14vw;
+    }
+
+    .dropdown-menu>li {
+    position: relative;
+    left: 1vw;
+    }
+
+    .nav-link>img {
+    position: relative;
+    top: -0.5vw;
+    }
+
+    .ochki {
+    position: relative;
+    top: -4vw;
+    left: 2vw;
+
+    }
+
+    .ochki::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid rgb(199, 192, 192);
+    width: 1130%;
+    }
+
+    .euro {
+    position: relative;
+    right: 21vw;
+    top: 3.2vw;
+    }
+
+    .sotib-olish1 {
+    position: relative;
+    right: 17vw;
+    text-decoration: none;
+
+    }
+
+    .sotib-olish {
+    color: rgb(172, 168, 168);
+    font-weight: bold;
+
+    }
+
+    .sotish {
+    color: rgb(172, 168, 168);
+    font-weight: bold;
+    }
+
+    .sotish1 {
+    position: relative;
+    right: 10vw;
+    top: -5.85vw;
+    text-decoration: none;
+    }
+
+    .valyuta {
+    position: relative;
+    top: -11vw;
+    right: 4.2vw;
+    text-decoration: none;
+    color: black;
+    }
+
+    .narx1 {
+    position: relative;
+    top: -1.3vw;
+    color: black;
+
+    }
+
+    .narx2 {
+    position: relative;
+    top: -1.3vw;
+    color: black;
+    }
+
+    .valyuta:hover {
+    color: rgb(11, 185, 162);
+    }
+
+    .opshiy-valyuta {
+    position: relative;
+    top: -10px;
+    }
+
+    .kreditlar {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 8vw;
+    top: -9vw;
+    }
+
+    .til {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    }
+
+    .bankim {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    }
+
+    #dropdownMenuButton1 {
+    font-weight: 700;
+    transition: .5s;
+    position: absolute;
+    left: 55%;
+    }
+
+    #dropdownMenuButton1:hover {
+    translate: (1, 2);
+    color: white;
+    background-color: rgb(255, 174, 0);
+    }
+
+    #til {
+    position: absolute;
+    top: -3vw;
+    left: 73%;
+    }
+
+    #bankim {
+    position: absolute;
+    left: 82%;
+    top: -3vw;
+    }
+
+    #search {
+    position: absolute;
+    left: 94%;
+    top: -3vw;
+    }
+
+    .tell-raqam {
+    position: relative;
+    left: 0;
+    top: -3vw;
+    }
+
+    .lang {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 2vw;
+    }
+
+    .kabinet {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 2vw;
+    }
+
+    .language {
+    width: 2vw !important;
+    }
+
+    .tell-raqam a:hover {
+    color: rgb(11, 185, 162) !important;
+    }
+
+    .kreditlar:hover {
+    color: rgb(11, 185, 162) !important;
+    }
+    .obshiy {
+        background-color: rgb(244, 254, 255);
+        width: 100vw;
+        height: 34vw;
+    }
+    
+    .kredit-turlari {
+        position: relative;
+        left: 30vw;
+        top: -10vw;
+    }
+    
+    .kredit-turlari>h5 {
+        padding-top: 15px;
+        font-size: 15px;
+    
+    }
+    
+    .kredit-turlari a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .kredit-turlari a:hover {
+        color: rgb(11, 185, 162);
+    }
+    
+    Mustafayev Bexruz, [01.03.2022 13:18]
+    .image-bor {
+        position: relative;
+        right: 2vw;
+    }
+    
+    .istemol-kredit {
+        font-weight: bold;
+        font-size: 17px;
+    }
+    
+    .karta-turlari {
+        position: relative;
+        top: -21vw;
+    }
+    
+    .karta-turlari2 {
+        position: relative;
+        left: 36vw;
+        top: -28vw;
+    
+    }
+    
+    .karta-turlari2>h5 {
+        padding-top: 15px;
+        font-size: 15px;
+    
+    }
+    
+    .obshiy>button {
+        position: relative;
+        top: 6vw;
+        width: 12vw;
+        height: 3.5vw;
+        border: solid 2px rgb(245, 160, 4);
+        border-radius: 11px;
+        font-weight: 700;
+    }
+    
+    .obshiy>button:hover {
+        color: white;
+        background-color: rgb(245, 160, 4);
+    
+    }
+    
+    .omonat-turlari {
+        position: relative;
+        top: -16vw;
+    }
+    
+    .omonat-turlari2 {
+        position: relative;
+        top: -32vw;
+        left: 20vw;
+    }
+    
+    .logo2 {
+        position: relative;
+        left: 7vw;
+        top: 2vw;
+        animation-duration: 10s;
+        animation-name: logo2;
+        animation-iteration-count: infinite;
+        margin-top: 50px;
+    
+    
+    
+    
+    }
+    
+    @keyframes logo2 {
+        0% {
+            opacity: 1;
+            top: -4vw;
+        }
+    
+        50% {
+            opacity: 0;
+            top: 4vw;
+        }
+    
+        100% {
+            opacity: 1;
+    
+            top: -4vw;
+    
+    
+        }
+    }
+    
+    nav {
+        position: relative;
+        left: -6vw;
+    }
+    
+    @media only screen and (max-width: 820px) {
+        .logo-1 {
+            position: relative;
+            left: -310px !important;
+            width: 50px;
+    
+        }
+    
+        .navbar-nav {
+            padding-left: 40px;
+        }
+    
+        .opshiy-valyuta {
+            display: none;
+        }
+    
+        .kreditlar-opshiy {
+            display: none;
+        }
+    
+        .tell-raqam button {
+            position: relative;
+            top: -9vw !important;
+            left: 400px !important;
+        }
+    
+        #bankim {
+            position: absolute;
+            top: -9vw;
+            left: 80%;
+        }
+    
+        #bankim>a {
+            font-size: 1px;
+        }
+    
+        #search {
+            display: none;
+        }
+    
+        #til {
+            display: none;
+        }
+    
+        .logo2 {
+            width: 60px;
+        }
+    }
+    
+    @media only screen and (max-width: 420px) {
+        .logo-1 {
+            position: relative;
+            left: -133px !important;
+            width: 50px;
+    
+        }
+    
+        .navbar-nav {
+            padding-left: 40px;
+        }
+    
+        .opshiy-valyuta {
+            display: none;
+        }
+    
+        .kreditlar-opshiy {
+            display: none;
+        }
+    
+        .tell-raqam button {
+            position: relative;
+            top: -9vw !important;
+            left: 200px !important;
+            width: 30%;
+        }
+    
+        #bankim {
+            position: absolute;
+            top: -17vw;
+            left: 67%;
+        }
+    
+        #bankim>a {
+            font-size: 1px;
+        }
+    
+        #search {
+            display: none;
+        }
+    
+        #til {
+            display: none;
+        }
+    
+        .logo2 {
+            width: 60px;
+        }
+    }
+    /* exchange */
+
+.exchange{
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+    background-color: #a5a5a5;
+  }
+  .ancertags {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center!important;
+  }
+  
+  .ancertags::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  
+  .ancertags::-webkit-scrollbar-thumb {
+    background-color: #009ea7;
+  }
+  
+  .ancerteg {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.4s;
+    margin-right: 3vw!important;
+    min-width: max-content;
+    text-decoration: none;
+  }
+  
+  .ancerteg:hover {
+    color: #009ea7;
+  }
+  
+  .ancerteg:hover::before {
+    width: 100%;
+  }
+  
+  .ancerteg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -19px;
+    width: 0%;
+    height: 2px;
+    background: #009ea7;
+    transition: 0.3s;
+  }
+  
+  .ancerteg.active {
+    color: #009ea7;
+  }
+  
+  .ancerteg.active::before {
+    width: 100%;
+  }
+  
+  .ancerteg {
+    margin-right: 50px;
+  }
+  
+  .ancerteg:last-child {
+    margin-right: 0;
+  }
+  
+  .b_hor {
+    width: 100%;
+    height: 1px;
+    background: #e6eaf1;
+    margin-top: 18px;
+    margin-bottom: 48px;
+  }
+  
+  .b_currency {
+    display: none;
+  }
+  
+  .b_currency.active {
+    display: block;
+  }
+  
+  @media (max-width: 992px) {
+    .exchange_rates .sidebar {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ancerteg {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .ancertags{
+      overflow-x: auto;
+      justify-content: flex-start;
+      padding: 0 25px;
+    }
+    .ancertag{
+      padding-bottom: 10px;
+    }
+    .ancerteg::before {
+      display: none;
+    }
+  }
+  /* Table */
+
+  .container-1{
+      position: relative;
+      margin: 2vw 12vw;
+      background-color: #a5a5a5;
+
+  }
+  table{
+        width: 70%!important;
+      position: absolute;
+      top: 1vw;
+
+
+}
+tr{
+    padding-bottom: 3vw!important;
+}
+td{
+  text-align: center;
+  padding: 3vh!important;
+  /* padding-left: 2vw!important; */
+}
+.hover:hover{
+    background-color: #43c3ca;
+  }
+  th{
+    text-align: justify!important;
+    
+  }
+
+  /* СOnvert */
+
+  .conver---1{
+	/* background-color: aliceblue; */
+	background-position: center;
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+	background-size: cover;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
+}
+.conver---1>h1{
+    font-size: 2vw;
+    font-weight: 500;
+
+}
+.heading {
+	font-family: 'Pacifico', cursive;
+	margin: 3px auto 20px;
+}
+ 
+
+.main1 {
+	width: 20vw!important;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+label {
+	font-size: 20px;
+}
+
+.btn {
+	width: 200px;
+}
+
+#finalAmount {
+	font-family: 'Lobster', cursive;
+	display: none;
+	margin: 1vw auto;
+}
+
+#finalAmount h2 {
+	font-size: 3vh;
+}
+
+.finalValue {
+	font-family: 'Amiri', serif;
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 60%;
+	}
+	.main {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.heading {
+		font-size: 60px;
+	}
+	hr {
+		width: 75%;
+	}
+	#finalAmount h2, .finalValue {
+		font-size: 40px;
+	}
+}
+ 
+.yozuv{
+    position: absolute;
+    top: 78vh;
+    left: 1vh;
+    width: 50vw;
+}
+
+/* Kalendar */
+.kalendar {
+    height: 49vh!important; 
+     background: rgb(255, 255, 255); 
+      display: flex;  
+      justify-content: center;
+    align-items: center;  
+    font-family: "Quicksand", sans-serif;  user-select: none;
+  }
+  
+  .softcard {  
+      width: 20vw;
+      /* height: 40vw!important; */
+      height: fit-content;
+    background: white;  /* Chrome 10-25, Safari 5.1-6 */
+    background: rgb(196, 183, 183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;  box-shadow: 0px 0px 10px #000;
+    position: absolute;
+    top: 26vw;
+    right: 1vw;
+  }
+  
+  .calendar-bar {  display: flex;  justify-content: space-between;
+    align-items: center;  padding: 20px;  padding-bottom: 15px;
+    border-bottom: 19px;
+  }
+  
+  .calendar-bar > .current-month {
+    font-size: 20px;  font-weight: bold;  color: #ddd;
+    background:#000;  padding:5px;  border-radius:10px;
+  }
+  
+  .calendar-bar > [class$="soft-btn"] {
+    width: 40px;  aspect-ratio: 1;  text-align: center;
+    line-height: 40px;  font-size: 14px;  color: #000;
+    background: #ddd;  border: none;  border-radius: 50%;
+  }
+  
+  .weekdays-name,
+  .calendar-days {  display: flex;  flex-wrap: wrap;  padding-inline:18px;}
+  .weekdays-name {  padding-top: 12px;}
+  
+  .calendar-days {  padding-bottom: 12px;}
+  
+  .days-name,
+  [class$="-day"] {  width: 40px;  height: 40px;  color: #000;  text-align: center;
+    line-height: 40px;  font-weight: 500;  font-size: 1rem;
+  }
+  
+  .days-name {  color: #fff;  font-weight: 700;}
+  
+  .current-day {
+    background-color: #000;  color: #fff;
+    border-radius: 50%;  font-weight: 700;  transition: 0.5s;  cursor: pointer;
+  }
+  
+  .padding-day {
+    color: #a5a5a5;  user-select: none;
+  }
+  
+  .calendar-bar > [class$="soft-btn"]:hover,
+  .month-day:hover,
+  .btn:hover {
+    border-radius:5px;  background-color:#f8f7fa;  color:#000;  border-radius:15px;
+    transition: 0.1s;  cursor: pointer;
+   
+  }
+  
+  .calendar-bar > [class$="soft-btn"]:focus,
+  .month-day:focus,
+  .btn:focus {  border-radius:15px;  background-color: #000;  color: #ddd;
+  }
+  
+  .goto-buttons {
+    border-top: solid 2px yellow;  padding-block: 18px;  display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn {
+    background: #eee; 
+       border-radius: 10px;
+    padding: 11px 13px;  color:#000;  font-family: "Quicksand", sans-serif;
+    font-weight: 600;  font-size: 0.9rem;  margin-right: 1px;  box-shadow: 0px 0px 0px #000;
+  }
+  .div1{
+    width: 40%;
+    height: 300px;
+    margin: 4vw  60vw 4vw 12vw;
+    background-color: rgb(172, 172, 172);
+  }
+  .div1 img{
+      width: 2vh!important;
+    
+  }
+  .div1 h3{
+      margin-top: 3vw!important;
+  }
